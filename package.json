@@ -1,0 +1,22 @@
+{
+    "name": "generator-suitescript2-typescript",
+    "version": "0.0.1",
+    "description": "Project generator for fast SuiteScript 2 development using TypeScript",
+    "files": [
+        "generators"
+    ],
+    "keywords": [
+        "yeoman-generator"
+    ],
+    "dependencies": {
+        "yeoman-generator": "^2.0.1",
+        "shelljs": "^0.7.8"
+    },
+    "devDependencies": {
+        "jasmine": "^2.8.0",
+        "yeoman-test": "^1.7.0"
+    },
+    "scripts": {
+        "test": "node node_modules/jasmine/bin/jasmine.js"
+    }
+}
