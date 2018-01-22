@@ -1,1 +1,3 @@
-export function otherone(){return 'hello from project <%= projectName%>'}
+export function otherone () {
+  return 'hello from project <%= projectName%>'
+}
